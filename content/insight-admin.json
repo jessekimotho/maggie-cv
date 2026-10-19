@@ -1,0 +1,65 @@
+{
+  "headline": "Virtual Administrative Assistant | Psychology & Client Support",
+  "phone": "+254 740 922 208",
+  "profile": "Counsellor and office administrator with experience supporting mental-health clients, coordinating appointments and managing client communication across care, reception and international logistics settings. Brings counselling psychology training, empathetic communication and practical experience in shipment tracking, client onboarding and travel coordination. Organised, discreet and quick to learn new systems, with a strong service focus and a commitment to helping psychologists and allied health practitioners keep their practices running smoothly.",
+  "skills": [
+    "Appointment scheduling & diary coordination",
+    "Client enquiries, phone handling & professional email communication",
+    "Accurate data entry & record-keeping",
+    "Confidentiality awareness & sensitive communication",
+    "Reception & client-facing administration",
+    "Prioritising tasks & managing competing demands",
+    "Calm complaint handling & problem-solving",
+    "Reliability & attention to detail"
+  ],
+  "education": [
+    {"qualification": "Degree in Counselling Psychology", "institution": "Pan African Christian University", "dates": "2019 - 2022"},
+    {"qualification": "Diploma in Counselling Psychology", "institution": "Pan African Christian University", "dates": "2017 - 2019"},
+    {"qualification": "Certificate in Social Work & Community Development", "institution": "Gretsa University", "dates": "Jan - June 2017"},
+    {"qualification": "Marion Senior School", "institution": "", "dates": "2012 - 2016"}
+  ],
+  "experience": [
+    {
+      "role": "Counsellor & Therapist",
+      "employer": "Ahadi Counselling Center, Kiambu",
+      "dates": "2024",
+      "bullets": [
+        "Provided counselling and therapeutic support to 47 clients during the role, typically seeing around 4-5 clients per day.",
+        "Led structured sessions and used CBT techniques to support clients experiencing mental-health and substance-use challenges.",
+        "Built trusting relationships through active listening and sensitive communication, with respect for client privacy, dignity and individual needs."
+      ]
+    },
+    {
+      "role": "Office Administrator",
+      "employer": "BTI Global",
+      "dates": "Mar 2026 - present",
+      "context": "Mineral transport and logistics across Congo, Kenya, Nigeria and Rwanda.",
+      "bullets": [
+        "Tracked shipments and coordinated client onboarding, travel arrangements and site visits across multiple countries.",
+        "Spent one week in Rwanda helping establish the local office and train personnel in office procedures.",
+        "Assisted clients making large lump-sum payments by coordinating bank visits and following up to confirm payments had gone through."
+      ]
+    },
+    {
+      "role": "Receptionist",
+      "employer": "Janique Nail Parlour, Diamond Shopping Mall",
+      "dates": "2025",
+      "bullets": [
+        "Managed the appointment diary, coordinated bookings with technicians and handled walk-in and telephone enquiries with warmth and professionalism.",
+        "Processed payments, maintained accurate daily service records and resolved client concerns calmly."
+      ]
+    },
+    {
+      "role": "Customer Care Representative",
+      "employer": "CCI Global Kenya",
+      "dates": "2024 - 2025",
+      "bullets": [
+        "Managed inbound enquiries and outbound follow-ups, updated CRM records accurately and balanced customer needs with daily performance targets.",
+        "De-escalated complaints through active listening, patience and practical problem-solving."
+      ]
+    }
+  ],
+  "technical": "Microsoft Office (Word and Excel), email, CRM systems and in-house administrative software. Experienced in client records and follow-up tracking; keen to learn Halaxy and practice-management workflows.",
+  "equipment": "Dedicated home office equipped for client calls, video meetings and remote administration.",
+  "referenceNote": "References available on request."
+}

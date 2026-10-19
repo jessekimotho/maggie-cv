@@ -1,0 +1,46 @@
+:root { --rose: #803656; --muted: #9a7484; --line: #e4c3ce; --ink: #382f33; --sidebar: #fbeef2; }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); font-family: Arial, Helvetica, sans-serif; font-size: 9.6pt; line-height: 1.4; background: #eee9eb; }
+.page { width: 210mm; min-height: 297mm; margin: 20px auto; background: white; box-shadow: 0 3px 24px #0001; }
+header { padding: 6.5mm 8mm 4.2mm; text-align: center; border-bottom: .3mm solid var(--line); background: linear-gradient(#fcf5f8, #fff); }
+h1 { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: 29pt; font-weight: normal; color: var(--rose); letter-spacing: .2pt; }
+.headline { margin: 2mm 0 2.5mm; font-family: Georgia, 'Times New Roman', serif; font-style: italic; color: var(--rose); font-size: 12pt; }
+.contact { display: flex; justify-content: center; gap: 3mm; font-size: 9.2pt; }
+.contact span + span::before, .contact a::before { content: '·'; padding-right: 3mm; color: var(--muted); }
+a { color: inherit; text-decoration: none; }
+.columns { display: grid; grid-template-columns: 61mm 1fr; min-height: 256mm; }
+aside { padding: 6.8mm 7mm 8mm 8mm; background: var(--sidebar); }
+main { padding: 5.8mm 9mm 7mm 9mm; }
+section + section { margin-top: 5mm; }
+h2 { margin: 0 0 2.5mm; padding-bottom: 1.5mm; border-bottom: .25mm solid var(--line); color: var(--rose); font: normal 12pt Georgia, 'Times New Roman', serif; letter-spacing: 1.8pt; text-transform: uppercase; }
+p { margin: 0; }
+ul { padding-left: 3.7mm; margin: 0; }
+li { padding-left: .3mm; margin-bottom: 1.55mm; }
+li::marker { color: #be7893; }
+.education-item + .education-item { margin-top: 3.4mm; }
+.qualification { font-weight: 600; }
+.dates { color: var(--muted); font-size: 9pt; }
+.job + .job { margin-top: 3.2mm; }
+.job ul { margin-top: 1.8mm; }
+main:not(.letter-body) section + section { margin-top: 4mm; }
+main:not(.letter-body) li { margin-bottom: 1.1mm; }
+.equipment { margin-top: 1.5mm; }
+.reference-note { margin-top: 3mm; color: #65505a; font-size: 9pt; font-style: italic; }
+.letter-body { padding: 10mm 18mm 7mm; border-left: 5mm solid var(--sidebar); font-size: 10.5pt; line-height: 1.45; }
+.letter-body p { margin-bottom: 3mm; }
+.letter-meta { display: flex; justify-content: space-between; margin-bottom: 7mm; color: #65505a; font-size: 10pt; }
+.letter-body h2 { font-size: 13pt; letter-spacing: .2pt; text-transform: none; margin-bottom: 5mm; padding-bottom: 3mm; }
+.signature { font: normal 17pt Georgia, 'Times New Roman', serif; color: var(--rose); }
+.handwritten-signature { font: normal 21pt/1.15 'Segoe Script', 'Brush Script MT', cursive; color: var(--rose); margin-top: 1mm; }
+.abstract-signature { display: block; width: 57mm; height: auto; margin-top: -1mm; }
+.job-heading { display: flex; justify-content: space-between; gap: 3mm; align-items: baseline; font-size: 10.2pt; line-height: 1.25; }
+.job-heading h3 { font: inherit; margin: 0; }
+.job-heading .dates { white-space: nowrap; font-style: italic; }
+.context { font-size: 9pt; font-style: italic; color: #65505a; margin: 1.6mm 0 1.8mm; }
+.references { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; font-size: 9pt; line-height: 1.3; }
+.references strong { display: block; }
+.references .phone { color: var(--muted); margin-top: .7mm; }
+@page { size: A4; margin: 0; }
+@media print { body { background: white; } .page { margin: 0; box-shadow: none; } header, aside { print-color-adjust: exact; -webkit-print-color-adjust: exact; } .job, .education-item, .references { break-inside: avoid; } }
+@media screen and (max-width: 800px) { .page { width: 100%; margin: 0; } h1 { font-size: 26pt; } .columns { grid-template-columns: 30% 70%; } aside { padding: 6mm 4mm; } main { padding: 6mm; } .contact { flex-wrap: wrap; } }
+@media screen and (max-width: 520px) { .columns { display: flex; flex-direction: column; } main { order: -1; } .references { grid-template-columns: 1fr; } .headline { font-size: 11pt; } .contact span + span::before, .contact a::before { content: none; } }

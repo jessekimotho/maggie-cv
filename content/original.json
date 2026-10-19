@@ -1,0 +1,67 @@
+{
+  "name": "Maggie Waigwe Karanja",
+  "headline": "Customer Care & Service Professional",
+  "location": "Nairobi, Kenya",
+  "phone": "0740 922 208",
+  "email": "karanjamaggie11@gmail.com",
+  "profile": "People-focused customer care professional with hands-on call-centre and reception experience, backed by training in counselling psychology. Skilled at handling calls, managing front-desk operations, and resolving concerns calmly. Seeking a customer service, front desk, or reception role where warmth and clear communication matter.",
+  "skills": [
+    "Inbound & outbound call handling",
+    "Lead follow-up & soft-sell negotiation",
+    "CRM data entry & record-keeping",
+    "Performance metrics & KPI tracking",
+    "Clear, friendly communication",
+    "MS Office (Word, Excel, Email)",
+    "Calm conflict resolution",
+    "Reliable, empathetic, adaptable"
+  ],
+  "education": [
+    {"qualification": "Diploma in Counselling Psychology", "institution": "Pan African Christian University", "dates": "2017 - 2019"},
+    {"qualification": "Degree in Counselling Psychology", "institution": "Pan African Christian University", "dates": "2019 - 2022"},
+    {"qualification": "Certificate in Social Work & Community Development", "institution": "Gretsa University", "dates": "Jan - June 2017"},
+    {"qualification": "Marion Senior School", "institution": "", "dates": "2012 - 2016"}
+  ],
+  "languages": ["English", "Swahili"],
+  "experience": [
+    {
+      "role": "Customer Care Representative",
+      "employer": "CCI Global Kenya",
+      "dates": "2024 - 2025",
+      "context": "Pan-African BPO providing contact-centre services for international brands.",
+      "bullets": [
+        "Handled inbound enquiries and outbound lead follow-ups, explaining products, pricing, and benefits.",
+        "Used customer-first negotiation to convert prospects while keeping conversations respectful.",
+        "Captured customer details in CRM systems with accuracy.",
+        "Tracked daily metrics - conversion rate, call volume, and call quality.",
+        "De-escalated complaints calmly, ensuring each caller felt heard."
+      ]
+    },
+    {
+      "role": "Receptionist",
+      "employer": "Janique Nail Parlour, Diamond Shopping Mall",
+      "dates": "2025",
+      "context": "Beauty & nail-care salon in Diamond Shopping Mall, Nairobi.",
+      "bullets": [
+        "First point of contact - welcomed walk-ins and managed phone enquiries with a friendly, professional tone.",
+        "Ran the appointment diary and coordinated with technicians to keep the floor moving.",
+        "Handled payments and kept accurate daily records of services rendered.",
+        "Resolved client concerns calmly to ensure repeat visits."
+      ]
+    },
+    {
+      "role": "Volunteer Counsellor",
+      "employer": "Ahadi Center, Kiambu",
+      "dates": "2024",
+      "context": "Rehabilitation centre in Kiambu supporting recovery from substance use and mental health challenges.",
+      "bullets": [
+        "Built trust quickly with clients through active listening and empathetic communication.",
+        "Ran structured daily sessions and applied CBT techniques to support recovery."
+      ]
+    }
+  ],
+  "references": [
+    {"name": "Janet Mathenge", "description": "Proprietor - Janique", "phone": "0721 855 4427"},
+    {"name": "Floor Manager", "description": "CCI Kenya", "phone": "0729 780 252"},
+    {"name": "Ahadi Center, Kirigiti", "description": "Rehabilitation Centre", "phone": "0704 525 568"}
+  ]
+}
